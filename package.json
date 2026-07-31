@@ -1,0 +1,14 @@
+{
+  "name": "tinyfish-pi-extension",
+  "version": "1.0.0",
+  "description": "Web search + page fetch tools for the pi coding agent, powered by the TinyFish Search and Fetch APIs",
+  "keywords": ["pi-package", "tinyfish", "web-search", "fetch", "pi-extension"],
+  "license": "MIT",
+  "peerDependencies": {
+    "@earendil-works/pi-coding-agent": "*",
+    "typebox": "*"
+  },
+  "pi": {
+    "extensions": ["./tinyfish.ts"]
+  }
+}
