@@ -1,0 +1,5 @@
+# Never commit API keys or local config
+tinyfish.json
+*.local.json
+.env
+.env.*
